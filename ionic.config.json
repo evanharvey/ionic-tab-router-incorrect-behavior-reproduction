@@ -1,0 +1,7 @@
+{
+  "name": "ionic-tab-router-incorrect-behavior-reproduction",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

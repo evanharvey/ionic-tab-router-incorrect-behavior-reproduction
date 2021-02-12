@@ -92,6 +92,14 @@ export class BarChartStyle1Component {
 
   constructor() { }
 
+  ngOnInit() {
+    console.log('init')
+  }
+
+  ngOnDestroy() {
+    console.log('destroy')
+  }
+
   public draw() {
     if (this.data == null || this.data.length === 0) { return; }
 
